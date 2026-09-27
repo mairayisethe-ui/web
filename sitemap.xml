@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://mairayisethe-ui.github.io/web/</loc>
-    <lastmod>2026-09-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
+  <url><loc>https://mairayisethe-ui.github.io/web/</loc><lastmod>2026-09-27</lastmod><priority>1.0</priority></url>
+  <url><loc>https://mairayisethe-ui.github.io/web/servicios/estrategia-marketing-digital.html</loc><lastmod>2026-09-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://mairayisethe-ui.github.io/web/servicios/seo.html</loc><lastmod>2026-09-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://mairayisethe-ui.github.io/web/servicios/redes-sociales.html</loc><lastmod>2026-09-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://mairayisethe-ui.github.io/web/servicios/creacion-contenido.html</loc><lastmod>2026-09-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://mairayisethe-ui.github.io/web/servicios/publicidad-digital.html</loc><lastmod>2026-09-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://mairayisethe-ui.github.io/web/servicios/google-ads.html</loc><lastmod>2026-09-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://mairayisethe-ui.github.io/web/servicios/meta-ads.html</loc><lastmod>2026-09-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://mairayisethe-ui.github.io/web/servicios/diseno-web.html</loc><lastmod>2026-09-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://mairayisethe-ui.github.io/web/servicios/branding.html</loc><lastmod>2026-09-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://mairayisethe-ui.github.io/web/servicios/geo.html</loc><lastmod>2026-09-27</lastmod><priority>0.9</priority></url>
 </urlset>
