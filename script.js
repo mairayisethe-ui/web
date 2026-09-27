@@ -27,13 +27,11 @@ document.querySelectorAll('.reveal').forEach((element, index) => {
   observer.observe(element);
 });
 
-const form = document.querySelector('.quote-form');
-form?.addEventListener('submit', (event) => {
-  event.preventDefault();
-  const name = document.querySelector('#name').value.trim();
-  const email = document.querySelector('#email').value.trim();
-  const project = document.querySelector('#project').value.trim();
-  const subject = encodeURIComponent(`Solicitud de proyecto web — ${name}`);
-  const body = encodeURIComponent(`Hola, quiero cotizar un proyecto web.\n\nNombre: ${name}\nCorreo: ${email}\n\nProyecto:\n${project}`);
-  window.location.href = `mailto:tu-correo@ejemplo.com?subject=${subject}&body=${body}`;
+const whatsappButton = document.querySelector('#whatsappFormButton');
+whatsappButton?.addEventListener('click', () => {
+  const name = document.querySelector('#name')?.value.trim() || '';
+  const email = document.querySelector('#email')?.value.trim() || '';
+  const project = document.querySelector('#project')?.value.trim() || '';
+  const message = `Hola, quiero cotizar un proyecto web.\n\nNombre: ${name || 'Por definir'}\nCorreo: ${email || 'Por definir'}\n\nProyecto:\n${project || 'Quiero conocer las opciones de servicio web.'}`;
+  window.open(`https://wa.me/573136205519?text=${encodeURIComponent(message)}`, '_blank', 'noopener,noreferrer');
 });
