@@ -126,3 +126,37 @@ if (footer && !footer.querySelector('.legal-links')) {
   legal.innerHTML = '<a href="nosotros.html">Nosotros</a> · <a href="contacto.html">Contacto</a> · <a href="aviso-legal.html">Aviso legal</a> · <a href="politica-privacidad.html">Privacidad</a> · <a href="terminos.html">Términos</a> · <a href="cookies.html">Cookies</a>';
   footer.appendChild(legal);
 }
+
+// Maira Escobar logo — visual identity only.
+// Replaces the textual brand in the existing header without changing navigation or copy elsewhere.
+const injectMairaLogo = () => {
+  const brand = document.querySelector('.site-header .brand');
+  if (!brand || brand.dataset.logoReady === 'true') return;
+
+  const img = document.createElement('img');
+  img.src = 'logo-maira.svg?v=20260928';
+  img.alt = 'Maira Escobar';
+  img.className = 'maira-logo';
+  img.decoding = 'async';
+  img.loading = 'eager';
+
+  brand.innerHTML = '';
+  brand.appendChild(img);
+  brand.classList.add('brand-logo');
+  brand.dataset.logoReady = 'true';
+
+  const style = document.createElement('style');
+  style.textContent = `
+    .site-header .brand.brand-logo{display:flex;align-items:center;width:150px;height:58px;line-height:0;flex:0 0 150px}
+    .site-header .brand.brand-logo .maira-logo{display:block;width:150px;height:auto;max-height:58px;object-fit:contain;object-position:left center}
+    @media(max-width:900px){.site-header .brand.brand-logo{width:132px;flex-basis:132px}.site-header .brand.brand-logo .maira-logo{width:132px;max-height:52px}}
+    @media(max-width:600px){.site-header .brand.brand-logo{width:112px;flex-basis:112px;height:52px}.site-header .brand.brand-logo .maira-logo{width:112px;max-height:48px}}
+  `;
+  document.head.appendChild(style);
+};
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', injectMairaLogo, { once: true });
+} else {
+  injectMairaLogo();
+}
