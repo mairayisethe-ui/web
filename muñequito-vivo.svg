@@ -1,1 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 150" role="img" aria-label="Muñeco animado de Maira"><defs><style>.s{fill:none;stroke:#422F0E;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.f{fill:#FFF8F2;stroke:#422F0E;stroke-width:4}.face{fill:#422F0E}</style></defs><g transform="translate(0 2)"><g><animateTransform attributeName="transform" type="translate" values="0 0;2 -4;0 0;-2 -3;0 0" dur="2.8s" repeatCount="indefinite"/><circle class="f" cx="60" cy="32" r="25"><animateTransform attributeName="transform" type="rotate" values="0 60 32;-5 60 32;4 60 32;0 60 32" dur="3.4s" repeatCount="indefinite"/></circle><circle class="face" cx="52" cy="30" r="2.2"/><circle class="face" cx="68" cy="30" r="2.2"/><path class="s" d="M52 40q8 7 16 0"/><path class="s" d="M60 57v36"/><g><path class="s" d="M60 65L27 78"/><animateTransform attributeName="transform" type="rotate" values="0 60 65;-22 60 65;8 60 65;-10 60 65;0 60 65" dur="1.7s" repeatCount="indefinite"/></g><g><path class="s" d="M60 65l32 15"/><animateTransform attributeName="transform" type="rotate" values="0 60 65;15 60 65;-8 60 65;22 60 65;0 60 65" dur="1.7s" repeatCount="indefinite"/></g><g><path class="s" d="M60 93L39 127"/><animateTransform attributeName="transform" type="rotate" values="0 60 93;18 60 93;-14 60 93;8 60 93;0 60 93" dur="1.7s" repeatCount="indefinite"/></g><g><path class="s" d="M60 93l25 31"/><animateTransform attributeName="transform" type="rotate" values="0 60 93;-18 60 93;14 60 93;-8 60 93;0 60 93" dur="1.7s" repeatCount="indefinite"/></g><path class="s" d="M27 78q-7 5-12 0M92 80q7 5 13 0"/><path class="s" d="M42 17q4-11 13-14M76 17q-4-11-13-14"/></g><g><circle cx="60" cy="32" r="29" fill="none" stroke="#EF6545" stroke-width="2" stroke-dasharray="3 8" opacity=".65"><animateTransform attributeName="transform" type="rotate" from="0 60 32" to="360 60 32" dur="8s" repeatCount="indefinite"/></circle><path d="M101 31l7 5-8 3" fill="#EF6545"><animateTransform attributeName="transform" type="rotate" from="0 60 32" to="360 60 32" dur="8s" repeatCount="indefinite"/></path></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 476" role="img" aria-labelledby="title desc">
+<title id="title">Mimi, mascota creativa de Maira</title><desc id="desc">Criatura estrella crema de aspecto suave, con ojos expresivos, mejillas rosadas, gafas rosadas y una pequeña laptop.</desc>
+<defs>
+<radialGradient id="body" cx="38%" cy="28%" r="78%"><stop offset="0" stop-color="#FFFBE9"/><stop offset=".55" stop-color="#FFF0C7"/><stop offset="1" stop-color="#E8CFA0"/></radialGradient>
+<linearGradient id="pink" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFD9E5"/><stop offset="1" stop-color="#EA5E86"/></linearGradient>
+<linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F1E8FF"/><stop offset="1" stop-color="#DCCEF7"/></linearGradient>
+<filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feGaussianBlur in="SourceAlpha" stdDeviation="12"/><feOffset dy="14"/><feComponentTransfer><feFuncA type="linear" slope=".18"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<ellipse cx="258" cy="445" rx="150" ry="19" fill="#422F0E" opacity=".10"/>
+<g filter="url(#shadow)">
+<path d="M260 45 C285 40 301 69 317 92 C338 82 365 66 383 84 C401 103 389 130 378 151 C414 158 450 170 455 197 C460 226 426 238 395 243 C414 275 426 307 405 326 C383 345 353 326 329 306 C317 343 305 386 272 390 C237 394 223 352 215 316 C183 337 148 351 127 328 C106 305 124 272 145 247 C111 242 72 232 68 202 C64 171 101 155 139 149 C123 119 113 90 134 71 C156 51 190 69 216 89 C226 64 238 48 260 45 Z" fill="url(#body)" stroke="#E5C78F" stroke-width="4" stroke-linejoin="round">
+<animateTransform attributeName="transform" type="rotate" values="0 260 230;-2 260 230;2 260 230;0 260 230" dur="5s" repeatCount="indefinite"/>
+</path>
+<ellipse cx="224" cy="125" rx="82" ry="46" fill="#fff" opacity=".22" transform="rotate(-16 224 125)"/>
+<ellipse cx="175" cy="207" rx="30" ry="17" fill="#F6B8B8" opacity=".72"/><ellipse cx="337" cy="207" rx="30" ry="17" fill="#F6B8B8" opacity=".72"/>
+<g>
+<ellipse cx="193" cy="185" rx="23" ry="31" fill="#171717"/><ellipse cx="319" cy="185" rx="23" ry="31" fill="#171717"/>
+<ellipse cx="185" cy="174" rx="7" ry="10" fill="#fff"/><ellipse cx="311" cy="174" rx="7" ry="10" fill="#fff"/>
+<circle cx="200" cy="197" r="3" fill="#fff" opacity=".65"/><circle cx="326" cy="197" r="3" fill="#fff" opacity=".65"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;2 -1;0 0;-2 -1;0 0" dur="4s" repeatCount="indefinite"/>
+</g>
+<path d="M243 218 Q256 230 270 218" fill="none" stroke="#422F0E" stroke-width="6" stroke-linecap="round"/>
+<g transform="translate(137 72) rotate(-5 126 45)">
+<path d="M8 32 Q16 5 46 5 H103 Q124 5 128 28 L128 51 Q126 70 106 72 H49 Q20 70 8 47Z" fill="url(#pink)" fill-opacity=".78" stroke="#EA5E86" stroke-width="7"/>
+<path d="M137 28 Q141 5 163 5 H220 Q250 5 258 32 L258 47 Q246 70 217 72 H161 Q141 70 137 51Z" fill="url(#pink)" fill-opacity=".78" stroke="#EA5E86" stroke-width="7"/>
+<path d="M128 28 Q133 18 141 28" fill="none" stroke="#EA5E86" stroke-width="7" stroke-linecap="round"/>
+<path d="M30 22 Q62 10 96 21" fill="none" stroke="#fff" stroke-width="5" opacity=".45" stroke-linecap="round"/>
+<animateTransform attributeName="transform" type="rotate" values="-5 126 45;0 126 45;-4 126 45;-5 126 45" dur="6s" repeatCount="indefinite"/>
+</g>
+<path d="M118 276 Q93 294 100 317" fill="none" stroke="#D5B97E" stroke-width="15" stroke-linecap="round"><animateTransform attributeName="transform" type="rotate" values="0 118 276;-10 118 276;8 118 276;0 118 276" dur="2.2s" repeatCount="indefinite"/></path>
+<path d="M394 275 Q419 289 417 310" fill="none" stroke="#D5B97E" stroke-width="15" stroke-linecap="round"><animateTransform attributeName="transform" type="rotate" values="0 394 275;8 394 275;-10 394 275;0 394 275" dur="2.2s" repeatCount="indefinite"/></path>
+<g transform="translate(171 286)">
+<rect x="25" y="0" width="181" height="105" rx="12" fill="#DCCEF7" stroke="#8D7DAA" stroke-width="5" transform="rotate(-3 115 52)"/>
+<rect x="37" y="12" width="157" height="76" rx="7" fill="url(#screen)" transform="rotate(-3 115 52)"/>
+<circle cx="116" cy="51" r="18" fill="#F6B8B8" opacity=".7"/><path d="M107 51 Q116 42 125 51 Q116 60 107 51Z" fill="#EA5E86"/>
+<path d="M0 103 Q112 94 225 103 L245 117 Q128 129 -20 117Z" fill="#BEB0D8" stroke="#8D7DAA" stroke-width="5" stroke-linejoin="round"/>
+</g>
+<path d="M427 82 v34 M410 99 h34" stroke="#422F0E" stroke-width="6" stroke-linecap="round"><animateTransform attributeName="transform" type="rotate" from="0 427 99" to="360 427 99" dur="8s" repeatCount="indefinite"/></path>
+<path d="M95 120 v24 M83 132 h24" stroke="#EA5E86" stroke-width="5" stroke-linecap="round"/>
+</g></svg>
