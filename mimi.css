@@ -4,12 +4,12 @@
 .hero-mascot img{display:none!important}
 .hero-mascot:before{content:'✦';top:2%!important;right:3%!important;color:#EA5E86!important;font-size:1.6rem!important;text-shadow:0 0 0 transparent;animation:mimiSpark 2.2s ease-in-out infinite!important}
 .hero-mascot:after{content:'Mimi';left:auto!important;right:7%!important;bottom:2%!important;width:auto!important;height:auto!important;border:0!important;background:#F9D4F8;padding:.35rem .7rem;border:1px solid #422F0E;border-radius:999px;color:#422F0E;font:700 .62rem/1 'Nunito Sans',sans-serif;letter-spacing:.08em;box-shadow:3px 3px 0 #422F0E;transform:rotate(-4deg)!important;animation:mimiTag 3.8s ease-in-out infinite!important}
-@keyframes mimiFloat{0%,100%{transform:translate3d(0,0,0) rotate(1deg)}25%{transform:translate3d(-8px,-10px,0) rotate(-2deg)}50%{transform:translate3d(4px,-16px,0) rotate(2deg)}75%{transform:translate3d(9px,-6px,0) rotate(-1deg)}}
+@keyframes mimiFloat{0%,100%{transform:translate3d(var(--mimi-x,0px),var(--mimi-y,0px),0) rotate(1deg)}25%{transform:translate3d(calc(var(--mimi-x,0px) - 8px),calc(var(--mimi-y,0px) - 10px),0) rotate(-2deg)}50%{transform:translate3d(calc(var(--mimi-x,0px) + 4px),calc(var(--mimi-y,0px) - 16px),0) rotate(2deg)}75%{transform:translate3d(calc(var(--mimi-x,0px) + 9px),calc(var(--mimi-y,0px) - 6px),0) rotate(-1deg)}}
 @keyframes mimiSpark{0%,100%{opacity:.25;transform:scale(.72) rotate(-10deg)}50%{opacity:1;transform:scale(1.15) rotate(12deg)}}
 @keyframes mimiTag{0%,100%{translate:0 0}50%{translate:0 -5px}}
-.hero-mascot.mimi-look-left{transform:translateX(-7px) rotate(-4deg) scale(1.02)!important}
-.hero-mascot.mimi-look-right{transform:translateX(7px) rotate(4deg) scale(1.02)!important}
-.hero-mascot.mimi-celebrate{transform:translateY(-18px) rotate(0deg) scale(1.05)!important;filter:drop-shadow(0 28px 26px rgba(234,94,134,.18))!important}
+.hero-mascot.mimi-look-left{transform:translate3d(-7px,0,0) rotate(-4deg) scale(1.02)!important}
+.hero-mascot.mimi-look-right{transform:translate3d(7px,0,0) rotate(4deg) scale(1.02)!important}
+.hero-mascot.mimi-celebrate{transform:translate3d(var(--mimi-x,0px),-18px,0) rotate(0deg) scale(1.05)!important;filter:drop-shadow(0 28px 26px rgba(234,94,134,.18))!important}
 @media(max-width:900px){.hero-mascot{width:190px!important;right:-2%!important;bottom:0!important}}
 @media(max-width:600px){.hero-mascot{width:128px!important;right:0!important;bottom:2%!important}.hero-art{min-height:500px}.hero-mascot:after{font-size:.55rem;padding:.3rem .55rem}}
 @media(prefers-reduced-motion:reduce){.hero-mascot,.hero-mascot:before,.hero-mascot:after{animation:none!important}.hero-mascot{transition:none!important}}
