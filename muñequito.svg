@@ -1,1 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 150" role="img" aria-label="Personaje gráfico animado"><g fill="none" stroke="#422F0E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><circle cx="60" cy="28" r="20" fill="#FFF8F2"/><circle cx="53" cy="25" r="2" fill="#422F0E" stroke="none"/><circle cx="67" cy="25" r="2" fill="#422F0E" stroke="none"/><path d="M53 34 Q60 39 67 34"/><path d="M60 48 L60 92"/><g><path d="M60 58 L37 73"/><path d="M60 58 L84 69"><animateTransform attributeName="transform" type="rotate" values="0 60 58;-10 60 58;0 60 58;12 60 58;0 60 58" dur="1.6s" repeatCount="indefinite"/></path></g><g><path d="M60 92 L43 125"/><path d="M60 92 L78 122"><animateTransform attributeName="transform" type="rotate" values="0 60 92;12 60 92;0 60 92;-12 60 92;0 60 92" dur="1.2s" repeatCount="indefinite"/></path></g><path d="M43 125 L33 125"/><path d="M78 122 L88 122"/></g><animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0 0;0 3;0 0" dur="1.4s" repeatCount="indefinite"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 150" role="img" aria-label="Personaje gráfico animado">
+  <g fill="none" stroke="#422F0E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -3;0 0;0 2;0 0" dur="1.05s" repeatCount="indefinite"/>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="0 60 28;3 60 28;-2 60 28;2 60 28;0 60 28" dur="2.1s" repeatCount="indefinite"/>
+        <circle cx="60" cy="28" r="20" fill="#FFF8F2"/>
+        <circle cx="53" cy="25" r="2" fill="#422F0E" stroke="none"/>
+        <circle cx="67" cy="25" r="2" fill="#422F0E" stroke="none"/>
+        <path d="M53 34 Q60 39 67 34"/>
+        <path d="M48 9 Q43 3 48 0"/>
+        <path d="M72 9 Q77 3 72 0"/>
+      </g>
+      <path d="M60 48 L60 92"/>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="-18 60 58;16 60 58;-18 60 58" dur="1.05s" repeatCount="indefinite"/>
+        <path d="M60 58 L37 73"/>
+      </g>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="18 60 58;-16 60 58;18 60 58" dur="1.05s" repeatCount="indefinite"/>
+        <path d="M60 58 L84 69"/>
+      </g>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="20 60 92;-20 60 92;20 60 92" dur="1.05s" repeatCount="indefinite"/>
+        <path d="M60 92 L43 125"/>
+        <path d="M43 125 L31 125"/>
+      </g>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="-20 60 92;20 60 92;-20 60 92" dur="1.05s" repeatCount="indefinite"/>
+        <path d="M60 92 L78 122"/>
+        <path d="M78 122 L90 122"/>
+      </g>
+    </g>
+  </g>
+</svg>
