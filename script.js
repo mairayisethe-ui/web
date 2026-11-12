@@ -2,12 +2,12 @@
 (() => {
   const redesign = document.createElement('link');
   redesign.rel = 'stylesheet';
-  redesign.href = 'redesign.css?v=20260928';
+  redesign.href = `${assetBase}redesign.css?v=20261112`;
   document.head.appendChild(redesign);
 
   const mimiStyles = document.createElement('link');
   mimiStyles.rel = 'stylesheet';
-  mimiStyles.href = 'mimi.css?v=20260928';
+  mimiStyles.href = `${assetBase}mimi.css?v=20261112`;
   document.head.appendChild(mimiStyles);
 
   const updateScrollUI = () => {
@@ -134,7 +134,7 @@ const injectMairaLogo = () => {
   if (!brand || brand.dataset.logoReady === 'true') return;
 
   const img = document.createElement('img');
-  img.src = 'logo-maira.svg?v=20260928';
+  img.src = `${window.location.pathname.includes('/servicios/') ? '../' : ''}logo-maira.svg?v=20261112`;
   img.alt = 'Maira Escobar';
   img.className = 'maira-logo';
   img.decoding = 'async';
