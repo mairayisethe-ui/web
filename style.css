@@ -13,3 +13,15 @@
 body:after{display:none!important}
 @media(max-width:760px){.hero-art:after{width:68px;height:82px;right:1%;bottom:4%;animation-duration:8s,8s}.hero:after,.intro:after,.services:after,.philosophy:after,.value:after,.faq-section:after,.contact:after{display:none!important}}
 @media(prefers-reduced-motion:reduce){.hero-art:after{animation:none;background-position:0 50%;transform:none}}
+
+
+/* ACCESSIBILITY — stronger text contrast across light surfaces */
+.section-light .section-heading em,
+.faq-section .section-heading em{color:var(--coral)}
+.section-sand .section-heading em,
+.philosophy .section-heading em{color:var(--choco)}
+.service-card p,.value-card p,.copy-block,.section-heading>p:last-child{color:#51483e}
+.service-card.featured p{color:#d8e1e6}
+.faq-answer{color:#51483e}
+.section-dark .section-heading em,
+.contact .section-heading em{color:var(--sand)}
